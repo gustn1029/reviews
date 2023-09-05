@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.form {display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 700px; width: 100%; 
+    padding: 2rem; margin: 0 auto 50px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+.form div{display: grid; margin-bottom: 30px; width: 100%;
+    grid-template-columns: 150px calc(100% - 200px);
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.form label{line-height: 60px;}
+.form label, .form input{height: 60px;}
+.form input, .form textarea {border: 1px solid gray; 
+    padding: 1rem;    
+    border-radius: 10px;
+}
+
+.form button {display: block; width: 120px; height: 60px; line-height: 60px;
+    background-color: lightblue;
+    border-radius: 20px;
+}
