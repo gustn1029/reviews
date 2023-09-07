@@ -7,7 +7,8 @@ import { usePathname } from 'next/navigation';
 
 const link_data: MainNavigationTool[] = [
     {title: 'All Reviews', path: "/"},
-    {title: 'Add Reviews', path: "/reviews"}
+    {title: 'Add Reviews', path: "/reviews"},
+    {title: 'Gsap', path: "/gsap"},
 ]
 export default function MainNavigationBar() {
     const path = usePathname();
